@@ -1,13 +1,18 @@
-
-
 import './App.css'
+import ProductTab from "./productTab.jsx";
+
+
 
 function App() {
-  
+  return ( 
+    <>
+      <ProductTab/> 
+   
 
-  return  <button> Click me </button>
-  
-    
-}
+    </>
+              
+  )
+  } 
 
 export default App
+ 
